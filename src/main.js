@@ -16,7 +16,7 @@ let render = () => {
   const routes = require('./routes/index').default(store)
 
   ReactDOM.render(
-    <App store={store} routes={routes} />,
+    <App store={store} routes={routes}/>,
     MOUNT_NODE
   )
 }
